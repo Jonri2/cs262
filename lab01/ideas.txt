@@ -1,0 +1,15 @@
+1. I was talking to Charlie Kornoelje about what we should do for this projects, 
+and he came up with an idea when talking with my roommate from last year. My
+roommate works for the Calvin Ecosystem Preserve, and one of his responsibilities
+includes documenting any turtles that he finds in a binder. The issue is that
+every time he finds a turtle, he has to bring the turtle all the way back to the
+preserve house to take a picture of it and document it in the binder. This
+becomes a hassle when he's way out in the preserve. The app would be a new way
+of documenting these turtles. You could take a picture of the turtle, enter all
+the necessary documentation, and submit it to a database all while out in the field.
+
+2. The wacky idea is an extension of the realistic one. To make sure a turtle hasn't
+already been documented, you have to look it up in the binder based on its carapace,
+which is unique to every turtle (like a fingerprint). The idea would be to add the
+capability to look up a turtle in the app by scanning its carapace with your camera,
+rather than having to look it up manually.

@@ -1,0 +1,17 @@
+1.
+  a. Junior
+  b. BCS
+  c. A in both CS 112 and 212
+2.
+  a. This summer I interned at Amway, and my job was to develop the
+     backend services of a mobile app. I was developing in Java, mostly
+     for iOS, and it was database-driven.
+  b. In my internship we used both Slack and Git. I haven't used Trello,
+     but it seems similar to Jira, which is what we used.
+  c. I do not have any Android devices.
+  d. I would like to work on the turtle project that I specified in ideas.txt
+3.
+  a. O - 35%, C - 52%, E - 44%, A - 75%, N - 31%
+  b. I would really like to work with Charlie Kornoelje.
+4. I will have to leave lab around 3:55 to get to Cross Country practice, but am planning on coming
+   back afterwards to finish up anything I missed.
