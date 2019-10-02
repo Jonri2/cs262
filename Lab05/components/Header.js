@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { View, Text } from 'react-native';
 
 export default class Header extends Component {
+    static propTypes = {
+        title: PropTypes.string,
+        subTitle: PropTypes.string,
+    }
+    static defaultProps = {
+        title: 'Default Title',
+        subTitle: 'Default SubTitle'
+    }
     render() {
         return (
             <View style={this.props.style}>
