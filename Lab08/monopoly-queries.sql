@@ -37,9 +37,13 @@ SELECT score
   ;
 
 -- Retrieve the name of the winner of the game played on 2006-06-28 13:20:00. 
-SELECT MAX(name) winner
-  FROM Player, Game, PlayerGame
-  WHERE PlayerGame.playerID = Player.ID
-  AND PlayerGame.gameID = Game.ID
-  AND Game.time = '2006-06-28 13:20:00'
+SELECT name winner
+  FROM (SELECT score, name
+    FROM Player, Game, PlayerGame
+    WHERE PlayerGame.playerID = Player.ID
+    AND PlayerGame.gameID = Game.ID
+    AND Game.time = '2006-06-28 13:20:00'
+    ORDER BY score DESC
+  ) AS winner
+  LIMIT 1
   ;
