@@ -28,7 +28,7 @@ SELECT *
   WHERE emailAddress LIKE '%@gmail%'
   ;
 
-Retrieve all “The King”’s game scores in decreasing order. 
+-- Retrieve all “The King”’s game scores in decreasing order. 
 SELECT score
   FROM Player, PlayerGame
   WHERE PlayerGame.playerID = Player.ID
