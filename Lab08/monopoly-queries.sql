@@ -47,3 +47,8 @@ SELECT name winner
   ) AS winner
   LIMIT 1
   ;
+
+  -- 8.2.c. The P1.ID < P2.ID clause makes it so P1.name doesn't get selected when
+  --        comparing the same row
+
+  -- 8.2.d. You want to join a table to itself when comparing any values down a column. 
