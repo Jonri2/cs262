@@ -1,0 +1,1 @@
+I checked the App.js files in Homework01, Homework02, and Homework03. I chose to add Docstrings to all components and functions and to run ESLint to fix any issues in code style. I chose not to add tons of comments so it wouldn't clutter the code.
